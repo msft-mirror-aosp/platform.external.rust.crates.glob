@@ -2,7 +2,6 @@
 
 rust_library_host_rlib {
     name: "libglob",
-    deny_warnings: false,
     crate_name: "glob",
     srcs: ["src/lib.rs"],
     edition: "2015",
