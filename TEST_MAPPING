@@ -11,6 +11,9 @@
     },
     {
       "name": "legacykeystore_test"
+    },
+    {
+      "name": "microdroid_manager_test"
     }
   ],
   "presubmit-rust": [
@@ -19,6 +22,9 @@
     },
     {
       "name": "legacykeystore_test"
+    },
+    {
+      "name": "microdroid_manager_test"
     }
   ]
 }
