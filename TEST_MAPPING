@@ -3,34 +3,18 @@
   "imports": [
     {
       "path": "external/rust/crates/libsqlite3-sys"
-    }
-  ],
-  "presubmit": [
-    {
-      "name": "keystore2_legacy_blobs_test"
     },
     {
-      "name": "keystore2_test"
+      "path": "packages/modules/Virtualization/microdroid_manager"
     },
     {
-      "name": "legacykeystore_test"
+      "path": "packages/modules/Virtualization/vm"
     },
     {
-      "name": "microdroid_manager_test"
-    }
-  ],
-  "presubmit-rust": [
-    {
-      "name": "keystore2_legacy_blobs_test"
+      "path": "system/security/keystore2"
     },
     {
-      "name": "keystore2_test"
-    },
-    {
-      "name": "legacykeystore_test"
-    },
-    {
-      "name": "microdroid_manager_test"
+      "path": "system/security/keystore2/legacykeystore"
     }
   ]
 }
